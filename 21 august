@@ -21,10 +21,10 @@ SCRIPT MODE and COMMAND LINE MODE
 
             # Sum of two numbers
 
-# Get input from user
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
+# Get input from user
 # Calculate sum
 sum = num1 + num2
 
