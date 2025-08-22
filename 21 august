@@ -1,0 +1,20 @@
+--> write python code
+    -> Script mode
+--> Command line mode/ Interactive mode
+
+numbers will print directly
+
+But for alphabets, sentences we need to show them in "".
+Ex:- print(9)   output will be 9
+
+    print(hello)    output invalid
+    print("hello")  output hello
+
+Python has key words as english has alphabets
+    --> Keywords + syntax = program/app
+        There are 35 key words
+
+SCRIPT MODE and COMMAND LINE MODE
+
+-->Import is a keyword which imports module.
+            module is a python file i.e.  .py file
