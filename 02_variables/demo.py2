@@ -1,0 +1,79 @@
+# working Variables
+
+#syntax --> var_name = = value
+#syntax --> enclose the text in '' or ""
+
+student_name = "SWAPNA" 
+student_age = 30
+student_gpa = 9.5
+student_passed = True
+
+dynamic_variable = 10
+print(type(dynamic_variable))
+
+dynamic_variable = False
+print(type(dynamic_variable))
+
+dynamic_variable = "Hello World"
+print(type(dynamic_variable))
+
+dynamic_variable = 9.5
+print(type(dynamic_variable))
+
+a = 10
+print(id(a))
+
+b = 20
+print(id(b))
+
+c = 10
+print(id(c))
+
+#list is collection of multiple items
+a_list = [10,20,30]
+print(type(a_list))
+print(id(a_list))
+
+c_list = [10,20,30]
+print(id(c_list))
+
+x = "python"
+y = "is"
+z = "awesome"
+ #print(xyz)
+
+
+#print(xyz) output error
+#output should be python is awesome
+#add takes multiple numeric values and add them
+# + when used with numerics its addition
+# + when used with text its concatination
+
+# concatination means joining multiple strings[ text enclosed in " " is a string]
+
+
+p = "Roses"
+i = "are"
+n = "beautiful"
+print(p+i+n) 
+
+x = "python"
+y = "is"
+z = "awesome"
+print(x+y+z)
+
+q = 10
+r = 20
+t = 30
+print(q+r+t)
+
+w = "10"
+e = "20"
+print(w+e)
+
+
+
+
+
+
+
