@@ -1,0 +1,32 @@
+25 August
+---------
+
+CONCATINATION:-  Joining multiple strings
+
+--> What is interpolation?
+        Replacing placeholders with actual values is interpolation.
+                ex: naming sticker placeholders will be given but for each student will be different
+
+--> f string
+        allows you to embed variables directly inside a string using {}
+
+Operators
+variables allows to assign data, retrieve data and manupilate data (if required)
+
+    --> In pyhthon, an operator is a special symbol that represents a specific operation to be performed on one or more operands (values or variables).
+        Operators are used to perform various operations such as arithmetic calculations, comparisons, logical operations, and more.
+    --> In Lua, operators are special symbols or keywords that perform specific operations on one or more operands (values or variables).
+    --> Types of operators in python:
+        1. Arithmetic Operators  +,-,*, / % //(floor dividion, not in decimal value, rounding off)
+            ** exponentation.
+        2. Comparison Operators:- used to compare values return a boolean type(either true or false)
+                ==, !=, >,<, >=, <=,
+        3. Logical Operators:- used to combine multiple conditions
+                and, or, not
+                returns when both condition are true, returns when atleast 1 condition is true, negates boolean value true to fasle - false ti true
+        4. Assignment Operators
+        5. Bitwise Operators
+        6. Membership Operators
+        7. Identity Operators
+        8. Combined operator:- for concise coding
+                                combination of arthematic and assigned operators
