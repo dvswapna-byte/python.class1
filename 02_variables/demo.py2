@@ -72,6 +72,88 @@ e = "20"
 print(w+e)
 
 
+#multiple Variables
+x,y,z = 10,20,30
+print(x+y+z)
+
+s1,s2,s3 = "Orange", "Apple","Cherry"
+print(s1+s2+s3)
+
+
+# using concatination
+name = "Swapna"
+age = 25
+#error print()
+
+# using interpolation
+print(f"My name is {name} and i am {age} years old")
+
+# using different dynamic_variable
+print(f"Sum of x,y,z, age: {x+y+z+age}")
+
+# school student info
+name = "Pavani"
+standard = 9
+school = "Kendriya Vidyalaya"
+print(f"My name is {name} I am studying in {standard} in class {school}") 
+
+# Arthimatic operatios
+n1 = 3
+n2 = 2
+print(f"sum of n1 and n2 is :{n1+n2}")
+print(f"product of n1 and n2 is :{n1*n2}")
+print(f"division of n1 and n2 is: {n1/n2}")
+print(f"difference of n1 and n2 is: {n1-n2}")
+
+print("Modulus of n1 and n2 is: {n1%n2}")
+print(f" floor division of n1 and n2 is: {n1//n2}")
+print(f"exponentiation of n1 and n2 is: {n1**n2}")
+
+#without compound assignment operator
+x = 10
+x = x+5
+print(x)
+
+# with compound operator
+x = 10
+x += 5
+print(x)
+
+x = 10
+x*= 5
+print(x)
+
+n1 = 3
+n2 = 2
+n3 = 3
+print(n1 == n2)
+print(n1 == n3)
+print(n1 >= n2)
+print(n1 <= n2)
+print(n1 != n2)
+print(n1 > n2)
+print(n1 < n2)
+
+
+# logical values
+x = 7
+y = 5
+a = 5
+b = 9
+resultand = x > y and a < b
+print(resultand)
+
+resultor = x > y or a < b # T or F-> T
+print(resultor)
+
+resultnot = x > y or a < b # T or F ->t
+print( not resultnot)
+
+
+
+
+
+
 
 
 
