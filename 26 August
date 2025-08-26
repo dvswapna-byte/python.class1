@@ -1,0 +1,39 @@
+DATA Types
+===========
+
+    -> Data types are categories that will define, what kind of data a variable can Holds
+
+    -> Numeric types
+                -- numbers with or without decimal ponts
+                    -- Integers: WHOLE NUMBERS 0,1,0-1,199 etc
+                    -- Float: decimal numbers 3.14,2.45 etc
+                    -- Complex: complex numbers like in maths
+                                math: a + ib where i is imaginary
+                                python: a + bj where j is imaginary
+
+                -- Text Types
+                    -- String: A sequence of charecters declared in ' ' or " "
+                    PYTHON DOESNOT SUPPORT SINGLE CHARECTER DATA TYPE
+                
+
+                -- BOOLEAN TYPE
+                    -- Returns True or False
+
+                -- Sequence Types
+                        -- String is a sequence type
+                        -- List: Multiple values tom be stored as a sequence, represented in [ ]. Mutable
+                        -- Tuples: Multiple values to be stored as a sequence, represented in ( ). Immutable
+                        -- Range: 
+
+                -- Set Types
+                        -- set: Multiple values to be stored as a sequence, represented in { }. Mutable {unique}
+                        -- Frozen set:  Multiple values to be stored as a sequence, represented in { }. Immutable {unique}
+
+                -- Dictionary[mapping] Type
+                        --  Multiple values to be stored as a sequence of key and values pairs, represented in { }
+
+                -- None Type
+                        -- absence of values, represents nothing
+
+        ALL THE ABOVE ARE PREDEFINED DATA TYPES, WE CAN CREATE OUR CUSTOM DATA TYPES BASED ON REQUIREMENTS.
+        STRINGS, SEQUENCE TYPES
