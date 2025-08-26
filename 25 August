@@ -26,7 +26,15 @@ variables allows to assign data, retrieve data and manupilate data (if required)
                 returns when both condition are true, returns when atleast 1 condition is true, negates boolean value true to fasle - false ti true
         4. Assignment Operators
         5. Bitwise Operators
-        6. Membership Operators
-        7. Identity Operators
+        6. Membership Operators:- used to test if a sequence is present in an object.
+                -> in; returns True if the sequence has specified value
+                -> not in; returns true, if the sequnce has no specified value
+        7. Identity Operators;- used to compare objects
+                -> not comparing values for this we use ==
+                -> python is 100% Object Oriented Language true or false. its true
+                -> scope for creating clauses
+                -> in python everything is an object
+                -> is: returns True if both variables are point to same memory block
+                -> is not: returns True if both variables are not in the same memory block
         8. Combined operator:- for concise coding
                                 combination of arthematic and assigned operators
