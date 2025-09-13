@@ -1,0 +1,29 @@
+-> Control Statements
+    Helps to control the flow of execution in program/ application
+
+    CATEGORIES
+        1. Decision Making/ Conditional Statements
+        2. Looping (iterative) statements, Multiple times
+        3. Branching statements(jump)
+
+-> Conditional/ Decision making statements
+        Used to evaluate a condition which returns True/ False
+            if: runs block of code if condition is True
+            ifelse: returns 1 block of code if condition is true and other is False
+            elif: Used to check multiple conditions
+            match-case: alternative to if else when you have multiple conditions
+
+-> INDENTATION:
+        Refers to spaces at the begning of the line that will define code block
+            conditionals, loops, functions, classes execution
+            Atleast 1 space recommended, by default 4 spaces
+            {}, [] ()
+-> INPUT function:
+        Takes user given input from keyboard as a string
+            variable = input("enter some value")
+-> TERNARY operator:
+        also called as conditional operator, allows you to write short hand ifelse
+          statements generally used for single expression
+          value_if_true
+          value_if_false
+          
