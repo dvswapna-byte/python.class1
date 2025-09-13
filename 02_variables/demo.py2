@@ -233,6 +233,28 @@ class Student: #class
 edify_student = Student()
 print(type(edify_student))
 
+# Type casting
+x = 100
+y = x
+print(type(y))  
+
+# Explicit conversion
+y = float(x)
+print(type(y))
+
+# string
+#value = "100"
+#print(type(value))
+#print(value/10)
+
+# Type conversion
+a = 10
+b = 3.5
+c = a + b
+print(type(c))
+print(c)
+
+
 
 
 
