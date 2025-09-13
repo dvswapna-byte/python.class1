@@ -1,0 +1,60 @@
+Scenario:- Basic Student Informaton
+
+Information about Student
+        ID
+        Name
+        Age
+        Score
+
+-> Use variable and different data types to store this data and use these operators to
+    manipulate and compare it.
+    STUDENT ACADEMIC AND ATTENDANCE DETAILS.
+
+    1. Declare variables
+        student id
+        student name
+        student age
+        quiz score
+        assignment score
+        exam score
+        student attendance
+    2. Use arthematic operators to calculate
+        total score
+        average score
+    3.Use relational operator to calculate
+        if the student is passing based on the average score of 75
+    4. Use increment operator to update
+        attendance + or -
+    5. Use logical operator to determine award eligibility
+            if the student qualifies for an award requires high attendance
+            i.e 90 and above or a passing grade
+    6. Display result
+        student information section
+            ID, Name, age
+        Academic performance section
+            individual score, total, average
+        Status section
+            passing section and award eligibility
+
+TYPE CONVERSION
+        The above are used to convert from one data type to another data type
+        TYPE CONVERSION:- Implicit/ Automatic
+            Python will automatically do the conversion when it is safe and there is 
+                no loss of data
+        widening:- Converting smaller data type to larger
+    # Type conversion
+        a = 10
+        b = 3.5
+        c = a + b
+        print(type(c))
+        print(c)
+
+TYPE CASTING
+        Explicit convertion done by the developers manually by using built in function
+        NARROWING:- converting large data type to smaller.
+            int() - convers to integer
+            float() - converts to float
+            str() - converts to string
+
+
+    
