@@ -1,0 +1,48 @@
+def multiply(a, b):
+    return a * b
+
+# Example usage
+result = multiply(3, 4)
+print("Multiplication result:", result)
+
+23rd August
+
+VARIABLES:-
+        -> Holds data, names for memory locations
+                Persistant data, non persistant data
+                    Permanant and Temporary data
+        -> Variables allows you to
+                . assign the data
+                . if required manupilate data
+                . Retrive data
+
+Syntax
+    -> variable_name = value; = is called Assignment operator
+      ex: student_age=25
+
+      NOTE: IN PYTHON, THE TYPE OF VARIABLE CAN CHANGE DURING EXECUTION.
+
+      NOTE: A FUNCTION DOES A TASK AND IS REPRESENED BY ()
+      type() - what is the data type of specific variable.
+      id() - gives the memory adress or location of variable.
+
+
+
+mutable data is the data that can change or modified
+        lists, dictionaries, sets etc 
+immutable data that cannot be changed( no modifications can be done)
+        numbers, strings, tuples etc
+
+Any variable data can be output using PRINT function
+
+START: starting value by default is 0
+STOP: ending value excluded
+STEP: increment by default is 1
+TO DO THE STEP REVERSE USE -1
+
+--> BRANCHING STATEMENTS[jump STATEMENTS]
+                used to control the flow of iteration inside the loops
+        . Break: exists the loop entirely
+        . Continue: skips the current iteration and continue the loop
+        . Pass : Does nothing generally used as placeholders
+        
