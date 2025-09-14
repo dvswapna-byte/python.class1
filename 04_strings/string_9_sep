@@ -1,0 +1,60 @@
+--> Negative Slicing
+--> Positive Slicing
+--> Reassigning
+--> String Concatination
+--> String Formatting
+--> String repetetion
+--> String Methods
+        String class provides multiple methods to perform various operations on strings.
+        Some of the commonly used string methods are:
+        1. lower() - Converts all characters in the string to lowercase.
+        2. upper() - Converts all characters in the string to uppercase.
+        3. strip() - Removes leading and trailing whitespace from the string.
+        4. replace(old, new) - Replaces all occurrences of 'old' substring with 'new' substring.
+        5. split(separator) - Splits the string into a list of substrings based
+              on the specified separator.
+        6. join(iterable) - Joins elements of an iterable (like a list or tuple)
+              into a single string, with the string as the separator.
+        7. find(substring) - Returns the lowest index of the substring if found,
+                otherwise returns -1.
+        8. count(substring) - Returns the number of occurrences of the substring in the string.
+        9. isalpha() - Returns True if all characters in the string are alphabetic
+        10. isdigit() - Returns True if all characters in the string are digits
+        11. isspace() - Returns True if all characters in the string are whitespace
+        12. capitalize() - Capitalizes the first character of the string
+        13. title() - Capitalizes the first character of each word in the string
+        14. startswith(prefix) - Returns True if the string starts with the specified prefix
+        15. endswith(suffix) - Returns True if the string ends with the specified suffix
+        16. len() - Returns the length of the string
+        17. ord() - Returns the Unicode code point of a given character
+        18. chr() - Returns the character corresponding to a given Unicode code point
+        19. format() - Formats the string using placeholders
+        20. f-strings - A way to embed expressions inside string literals, using curly braces {}
+        21. slice() - Returns a slice object that can be used to slice strings
+        22. zfill(width) - Pads the string with leading zeros to the specified width
+        23. center(width) - Centers the string within the specified width, padding with spaces
+
+        Example usage of some string methods:
+        ```python
+        my_string = "  Hello, World!  "
+        print(my_string.lower())          # Output: "  hello, world!  "
+        print(my_string.upper())          # Output: "  HELLO, WORLD!  "
+        print(my_string.strip())          # Output: "Hello, World!"
+        print(my_string.replace("World", "Python"))  # Output: "  Hello, Python!  "
+        print(my_string.split(", "))      # Output: ['  Hello', 'World!  ']
+        print("-".join(["Hello", "World"]))  # Output: "Hello-World"
+        print(my_string.find("World"))    # Output: 8
+        print(my_string.count("o"))       # Output: 2
+        print(my_string.isalpha())        # Output: False
+        print(my_string.isdigit())        # Output: False
+        print(my_string.isspace())        # Output: False
+        print(my_string.capitalize())     # Output: "  hello, world!  "
+        print(my_string.title())          # Output: "  Hello, World!  "
+        print(my_string.startswith("  He"))  # Output: True
+        print(my_string.endswith("!  "))  # Output: True
+        print(len(my_string))             # Output: 17
+        print(ord('A'))                   # Output: 65
+
+
+        
+
