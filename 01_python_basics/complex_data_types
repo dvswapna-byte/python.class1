@@ -1,0 +1,9 @@
+--> complex data types are
+    . sequence type
+    . set type
+    . dictionary type
+    It has multiple values
+        lists, tuples, set, dictionary
+        #data=[10,20,30,40,50]
+List is a data structure which allows you to store multiple values in a single variable.
+List are represented by using [ ] or list class
