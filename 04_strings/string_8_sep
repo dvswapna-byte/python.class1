@@ -3,3 +3,16 @@
     enclosed in " " or ' '.
     We can use triple codes but not recommended.
 
+--> Indexing in python
+        Python allows you to access each charecter in a string using an index number.
+        Index starts from 0
+        Index goes both in positive and negative direction.
+--> We have predefined functions in Python
+        len()-> returns number of items
+ --------space is also a charecter in python---------
+
+--> Slicing in Python
+        Slicing means cutting a sub-string from the original string using index
+        To access range of charecters in a string
+
+
