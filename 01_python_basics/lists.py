@@ -74,3 +74,8 @@ else:
 # List methods
 list = [10]
 print(dir(list))
+
+#append() adds an element to the end of the list
+# Append
+
+
