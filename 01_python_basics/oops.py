@@ -20,10 +20,18 @@ print(list_courses.sort())
 print(list_courses)
 
 #mixed data
-list_mix = [20, 10. "C","Python",30, 50, 40]
-print(list_mix)
+#list_mix = [20, 10. "C","Python",30, 50, 40]
+#print(list_mix)
 #print(list_mix.sort())
-print(list_mix)
+#print(list_mix)
 
 #copy: creates a shallow copt
 #soft copy
+
+#infinate loops
+#i=10
+#while i>=1:
+ #   print(i)
+  #  i+=1
+
+  
