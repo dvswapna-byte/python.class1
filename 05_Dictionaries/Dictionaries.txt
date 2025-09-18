@@ -1,0 +1,9 @@
+--> Dictionaries: Mapping type of data
+    -> Dictionaries are data structures which allows you to store multiple key values
+    -> Key value: Item/Pair
+    -> Dictionaries are represented using { } or using dict class
+    -> NO INDEXING
+    -> NO SLICING
+    -> KEY:VALUE ==> immutable:any_object
+    -> Keys can be immutable only
+    -> value can be any object 
