@@ -1,0 +1,16 @@
+==> Sets is a data structure that allows you to store multiple values in single variable.
+=> Sets are represented using {} or using tuple class oe set class
+=> dict ={ 1:100,2:200}
+    set = {100,200}
+=> Sets have uniqe functionalities UUU
+    U: Unique [no duplicates, if u add they will be removed]
+    U: Unordered [ insertion order is not preserved]
+    U : Unindex[ No index]
+        No indexing no slicing
+
+=> Sets are used especially fornsetb related mathemtical operators
+        => Union
+        => Intersection
+        => Difference
+        => Symetric difference
+
