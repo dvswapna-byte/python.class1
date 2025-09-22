@@ -23,18 +23,18 @@ print("This is a demo script for Python basics.")
 
 
 #import demo
-import keyword
+#import keyword
 
 # Identifiers
-data = "hello"
-daydate = "hello"
+#data = "hello"
+#daydate = "hello"
 
 
-a = 20
-A = 50
+#a = 20
+#A = 50
 
-print(a)
-print(A)
+#print(a)
+#print(A)
 
-class = "some data"
-print(class)
+#class = "some data"
+#print(class)
