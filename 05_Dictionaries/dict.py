@@ -102,6 +102,27 @@ print(fruits_dict)
 print(fruits_dict.setdefault("c","cherries"))
 print(fruits_dict)
 
+# dict inside dict
+
+students = {
+    "101": {
+        "Name": "Swapna",
+        "Email": "swapna@gmail.com",
+        "Course": "Python"
+    },
+    "102": {
+        "Name": "Avaneesh",
+        "Email": "avi@gmail.com",
+        "Course": "Java"
+    },
+    "103": {
+        "Name": "Viraj",
+        "Email": "viru@gmail.com",
+        "Course": "DevOps"
+    }
+}
+print(students)
+
 
 
 
