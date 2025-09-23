@@ -1,0 +1,65 @@
+
+# Implement Student/Product/Employee Management System
+
+-> Create a Student management system that allows administrators (like functionalities)
+    to manage student including their scores and skills.
+
+=> System setup
+
+    => Creta system information which is fixed and shouldn't be modified
+    => System name: Edify Student Management Portal
+    => Version: v1
+    => Year: 2025
+    => Institution: Edify University
+
+
+=> Create admin contact information which should'nt be modified
+    -> Email: admin@edify.commands
+    -> Phone: 9808080
+    -> Room No. : 201
+
+=> Display System Info at startup
+
+==> CORE functionalities
+
+    -> Add Student CRUD-C
+        -> Prompt for Student ID and check if it is already exists, Unique ID'scores
+        -> Get Student Name and format it properly
+        -> Store Multiple Scores
+                = Accept scores one by one until user types Document
+                = validates scores entered should be inbetween 0-100
+                = Score can be duplicated
+        -> Store Skills
+                = Accept skills one by one until user types Document
+                = No duplicates only unique skills
+    
+    -> Modify the student CRUD-U
+        -> Search student by ID
+        -> Update Name of the Student, if ID exists 
+        -> If student doesn't exists should appropriate errors
+
+    -> Delete the student CRUD-Delete
+        -> Remove the student by ID
+        -> If student doesn't exists should appropriate errors
+
+    -> List all the students CRUD-R
+        -> Display all the student information in formatted way
+        -> For each student show
+                = ID
+                = Name
+                = All Scores
+                = Average scores
+                = High Score
+                = All skills
+                = Count of skills
+ 
+ ==> Exit the system
+        -> When the system exits show admin details to contact
+
+
+=====> Solution approaches
+    => Menu Based System
+    => System setup fixed: Using Tuples Immutable
+    => Student Info: Using Dictionaries inside dict
+    => Scores: Using Lists
+    => Skills: Sets 
