@@ -116,12 +116,15 @@ while True:
 
         average = sum(scores)/len(scores)
         print("Average of Scores is:", average)
-        
+
 
     elif choice == "5":
         print("Exiting System")
+        break
     else:
         print("Invalid Option, Select only (1-5)")
+        
+
 
 
 
