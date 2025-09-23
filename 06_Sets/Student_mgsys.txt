@@ -1,0 +1,8 @@
+
+# Student Management system using complex data types
+
+this application will simulate CRUD operations that we perform on database
+
+If you know web app frameworks, then you can build web layer areound this.
+    -> Django
+
