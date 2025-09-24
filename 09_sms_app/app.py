@@ -117,9 +117,29 @@ while True:
         average = sum(scores)/len(scores)
         print("Average of Scores is:", average)
 
+        print("================Details=============")
+        print(f"ID: {sid}")
+        print(f"Name: {name}")
+        print(f"All Scores: {scores}")
+        print(f"Ac Scores: {scores}")
+        print(f"All Scores: {scores}")
+        print(f"High Score: {high_score}")
+        print(f"Average Score: {average}")
+        print(f"All Skills: {skills}")
+        print(f"Count of Skills: {count}")
+        print("="*50)
+
+              
+
+
 
     elif choice == "5":
         print("Exiting System")
+        print("="*50)
+        print(f"ADMIN CONTACT DETAILS")
+        print("="*50)
+        print(f"ADMIN PHONE NUMBER: {ADMIN_INFO[1]}")
+        print(f"ADMIN EMAIL: [ADMIN_INFO]")
         break
     else:
         print("Invalid Option, Select only (1-5)")
