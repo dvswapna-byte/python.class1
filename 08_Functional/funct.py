@@ -121,6 +121,26 @@ def cred_transactions_new(*transactions,**account):
     print(f"Hi {account['name']} You have done {total} amount of transactios in {account['account_id']}")
 cred_transactions_new(1000,2000,3000,name="swapna",account_id=325892156)
 
+# return
+def add(a,b):
+   return a+b
+
+add(10,20)
+print(add(20,30))
+
+# multiple returns
+def math_new(a,b,opr):
+    if opr=="+":
+        return a+b
+    elif opr=="*":
+        return a*b
+    elif opr=="/":
+        return a/b
+    else: 
+        return "Invalid Oprator"
+    print("This will not be reachable")
+    
+
 
         
 
