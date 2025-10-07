@@ -22,3 +22,6 @@ WHY FUNCTIONS
         3. Key word arguement based
         4. Arbitary Positional (*arge)
         5. Arbitary Keyword Arguement (*kwargs)
+
+==> "return" is a key word in python used in function to give appropriate response when the 
+        function is called
