@@ -1,0 +1,90 @@
+-> Built in Function 
+
+        -> Functions which are already pre built into python 
+
+        -> No need to define them 
+
+        -> print() -> displays output 
+        -> id () -> display object identity address 
+        -> input() -> take user input 
+        -> len() -> length of elements 
+        -> max() -> largest element 
+        -> etc 
+
+    -> User Defined Functions 
+
+        -> Functions which we create using def keyword, for custom requirements 
+
+    -> Lambda Functions (Anonymous Functions)
+
+        -> Lambda functions are One Line Functions 
+
+        -> Especially for Single Line Expressions
+
+        -> We use "lambda" keyword to work with lambda functions
+
+        -> The result of lambda functions will be automatically returned 
+
+        -> Mainly used for tasks, when passing a function as an argument
+
+        -> Syntax 
+
+            lambda arguments: expression
+
+            NOTE : arguments can be multiple, but one line expression 
+
+        -> IILE : Immediately Invoked Lambda Expressions
+
+29th Sep 2025
+=============
+
+    -> Higher Order Functions (Functional Style Of Writing Code)
+
+        -> Functions taking another function as an argument.
+
+    -> map, filter and reduce ==> Higher Order Functions
+
+    -> map()
+
+        -> Applies a function to each item in a iterable 
+
+        -> Just like for loop 
+
+        -> Think of map() as "Do this to every element in iterable"
+
+        -> Syntax
+
+            map(function, iterable)
+
+    -> filter()
+
+        -> Filters the items of an iterable based on condition
+
+        -> Just like using a for loop with condition
+
+        -> Syntax
+
+            filter(function, iterable) => the function must return True or False
+    
+
+    -> reduce()
+
+        -> Reduces an iterable to a single value, by applying the functions cumulatively (again & again) 
+
+        -> Syntax
+
+            reduce(function, iterable)
+        
+        -> NOTE : reduce was updated inside a module called functools, so to use reduce(), we need to import 
+
+
+    -> Higher Order Functions 
+
+        -> map() : For loop 
+        -> filter() : For loop with condition
+        -> reduce() : combine all to single value 
+
+30th Sep 2025
+=============
+
+    -> Student Management System Using Functional Style
